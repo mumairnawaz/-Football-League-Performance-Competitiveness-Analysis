@@ -1,27 +1,6 @@
----
-
-## Table of Contents
-
-> - [Background](#background)
-> - [Executive Summary](#executive-summary)
-> - [Project Objective](#project-objective)
-> - [Data Architecture & Methodology](#data-architecture--methodology)
-> - [Business Insights](#business-insights)
->   - [Insight 1: Scoring Intensity Varies Across Competitions](#insight-1-scoring-intensity-varies-across-competitions)
->   - [Insight 2: Home Advantage Is Structural, Not Random](#insight-2-home-advantage-is-structural-not-random)
->   - [Insight 3: A Small Set of Teams Drive League Performance](#insight-3-a-small-set-of-teams-drive-league-performance)
->   - [Insight 4: Competitive Balance Differs by League](#insight-4-competitive-balance-differs-by-league)
->   - [Insight 5: Champions League Shows Higher Scoring Volatility](#insight-5-champions-league-shows-higher-scoring-volatility)
-> - [Strategic Recommendations](#strategic-recommendations)
-> - [Analytics Deliverables](#analytics-deliverables)
-> - [Tools & Analytics Stack](#tools--analytics-stack)
-> - [Final Outcome](#final-outcome)
 
 ---
 
-
-
-  
 ## Background
 
 Elite football competitions generate substantial commercial value through broadcasting rights, sponsorships, and global fan engagement. However, leagues differ significantly in competitiveness, scoring behavior, and team dominance.
