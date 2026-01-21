@@ -20,8 +20,7 @@
 
 ---
 
-<table width="90%" align="center">
-<tr><td>
+
 
 ## Background
 
@@ -36,13 +35,11 @@ This project moves beyond basic match statistics to address business-critical qu
 
 The analysis focuses on delivering **decision-oriented insights**, not descriptive statistics.
 
-</td></tr>
-</table>
+
 
 ---
 
-<table width="90%" align="center">
-<tr><td>
+
 
 ## Executive Summary
 
@@ -63,13 +60,9 @@ The project delivers **decision-ready KPIs**, enabling strategic insight for:
 
 This is a **business analytics project**, not a fan-driven analysis.
 
-</td></tr>
-</table>
 
 ---
 
-<table width="90%" align="center">
-<tr><td>
 
 ## Project Objective
 
@@ -81,13 +74,9 @@ The primary objectives of this project are to:
 
 This is not a dashboard-only project — it demonstrates **end-to-end analytics ownership**, from ingestion to insight.
 
-</td></tr>
-</table>
+
 
 ---
-
-<table width="90%" align="center">
-<tr><td>
 
 ## Data Architecture & Methodology
 
@@ -109,15 +98,13 @@ A **medallion-style analytics architecture** was implemented to ensure reliabili
 
 This mirrors **enterprise data warehouse design**, not ad-hoc analysis.
 
-</td></tr>
-</table>
+
 
 ---
 
 # Business Insights
 
-<table width="90%" align="center">
-<tr><td>
+
 
 ## Scoring Intensity Across Competitions
 
@@ -128,13 +115,10 @@ The UEFA Champions League consistently records the highest average goals per mat
   <img src="visuals/Score%20Intensity.png" width="92%">
 </p>
 
-</td></tr>
-</table>
 
 ---
 
-<table width="90%" align="center">
-<tr><td>
+
 
 ## Home Advantage Is Structural
 
@@ -145,13 +129,11 @@ Home teams score more goals across all competitions and seasons, confirming home
   <img src="visuals/Home%20Advantage%20KPI.png" width="92%">
 </p>
 
-</td></tr>
-</table>
+
 
 ---
 
-<table width="90%" align="center">
-<tr><td>
+
 
 ## Competitive Balance by League
 
@@ -162,13 +144,10 @@ Domestic leagues such as LaLiga and the Premier League show wider performance ga
   <img src="visuals/League%20Competitiveness.png" width="92%">
 </p>
 
-</td></tr>
-</table>
 
 ---
 
-<table width="90%" align="center">
-<tr><td>
+
 
 ## Scoring Volatility in Champions League
 
@@ -179,15 +158,13 @@ The Champions League exhibits higher year-over-year scoring volatility, driven b
   <img src="visuals/Scoring%20Volatility%20by%20Competition%20(2024%20vs%202025).png" width="92%">
 </p>
 
-</td></tr>
-</table>
+
 
 ---
 
 # Strategic Recommendations
 
-<table width="90%" align="center">
-<tr><td>
+
 
 Based on these findings:
 
@@ -196,13 +173,11 @@ Based on these findings:
 - Clubs can benchmark dominance relative to league norms
 - Analysts can integrate KPIs into forecasting and valuation models
 
-</td></tr>
-</table>
+
 
 ---
 
-<table width="90%" align="center">
-<tr><td>
+
 
 ## Analytics Deliverables
 
@@ -214,13 +189,11 @@ This project delivers:
 - Executive-level visualizations
 - Scalable warehouse design
 
-</td></tr>
-</table>
+
 
 ---
 
-<table width="90%" align="center">
-<tr><td>
+
 
 ## Tools & Analytics Stack
 
@@ -229,13 +202,11 @@ This project delivers:
 - Excel / Power BI (Visualization)
 - GitHub (Version Control & Presentation)
 
-</td></tr>
-</table>
+
 
 ---
 
-<table width="90%" align="center">
-<tr><td>
+
 
 ## Final Outcome
 
@@ -248,5 +219,3 @@ This project demonstrates:
 
 This reflects **real-world analytics work**, not academic exercises.
 
-</td></tr>
-</table>
