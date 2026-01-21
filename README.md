@@ -29,7 +29,7 @@ Tools & Analytics Stack
 Final Outcome
 
 <table width="90%" align="center"> <tr><td>
-Background
+## Background
 
 Elite football competitions generate substantial commercial value through broadcasting rights, sponsorships, and global fan engagement. However, leagues differ significantly in competitiveness, scoring behavior, and team dominance.
 
@@ -47,7 +47,7 @@ The analysis focuses on delivering decision-oriented insights, not descriptive s
 
 </td></tr> </table>
 <table width="90%" align="center"> <tr><td>
-Executive Summary
+## Executive Summary
 
 This project evaluates UEFA Champions League, Premier League, and LaLiga performance across the 2024–2025 seasons using a purpose-built analytics warehouse.
 
@@ -75,7 +75,7 @@ This is a business analytics project, not a fan-driven analysis.
 
 </td></tr> </table>
 <table width="90%" align="center"> <tr><td>
-Project Objective
+## Project Objective
 
 The primary objectives of this project are to:
 
@@ -180,7 +180,7 @@ The Champions League exhibits higher year-over-year scoring volatility, driven b
 Strategic Recommendations
 <table width="90%" align="center"> <tr><td>
 
-Based on these findings:
+## Based on these findings:
 
 League operators should monitor competitive balance to protect long-term fan engagement
 
@@ -192,7 +192,7 @@ Analysts can integrate KPIs into forecasting and valuation models
 
 </td></tr> </table>
 <table width="90%" align="center"> <tr><td>
-Analytics Deliverables
+## Analytics Deliverables
 
 This project delivers:
 
@@ -208,7 +208,7 @@ Scalable warehouse design
 
 </td></tr> </table>
 <table width="90%" align="center"> <tr><td>
-Tools & Analytics Stack
+## Tools & Analytics Stack
 
 SQL (DuckDB)
 
@@ -220,7 +220,7 @@ GitHub (Version Control & Presentation)
 
 </td></tr> </table>
 <table width="90%" align="center"> <tr><td>
-Final Outcome
+## Final Outcome
 
 This project demonstrates:
 
