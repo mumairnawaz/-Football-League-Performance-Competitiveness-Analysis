@@ -255,7 +255,7 @@ FOOTBALLDATALAKEHOUSE/
 │   ├── silver/
 │   │   └── matches/
 │   │       └── matches_clean.parquet
-│   │           # Cleaned, standardized match-level dataset
+│   │           # Cleaned and standardized match-level dataset
 │   │           # Ready for analytical modeling
 │   │
 │   ├── gold/
@@ -266,7 +266,8 @@ FOOTBALLDATALAKEHOUSE/
 │   │   │   # Aggregated KPIs by competition and season
 │   │   │
 │   │   └── team_performance.parquet
-│   │       # Team-level performance metrics (goals, goal difference, dominance)
+│   │       # Team-level performance metrics
+│   │       # (goals, goals conceded, goal difference, dominance)
 │   │
 │   └── exports/
 │       # Business-ready KPI outputs generated from SQL
@@ -283,17 +284,17 @@ FOOTBALLDATALAKEHOUSE/
 │
 ├── transformation/
 │   ├── clean_matches.py
-│   │   # Cleans raw JSON into standardized Silver layer
+│   │   # Transforms raw JSON into standardized Silver layer
 │   │
 │   └── build_gold.py
-│       # Builds Gold-layer fact tables and KPIs
+│       # Builds Gold-layer fact tables and business KPIs
 │
 ├── notebooks/
 │   └── validate_gold.py
 │       # Data validation and quality checks
 │
 ├── visuals/
-│   # Executive-level visual outputs used in README & presentations
+│   # Executive-level visual outputs used in README and presentations
 │   ├── score_intensity.png
 │   ├── home_advantage.png
 │   ├── top_teams.png
@@ -307,10 +308,7 @@ FOOTBALLDATALAKEHOUSE/
 │   # MIT License
 │
 └── requirements.txt
-│   # Python dependencies for reproducibility
-
-
-
+    # Python dependencies for reproducibility
 ---
 
 
