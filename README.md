@@ -24,16 +24,26 @@
 
 ## Background
 
-Elite football competitions generate substantial commercial value through broadcasting rights, sponsorships, and global fan engagement. However, leagues differ significantly in competitiveness, scoring behavior, and team dominance.
+Modern football has evolved into a data-driven commercial ecosystem. Broadcasting rights, sponsorship deals, player valuation, and fan engagement are increasingly influenced by league competitiveness, scoring behavior, and performance concentration.
 
-This project moves beyond basic match statistics to address business-critical questions such as:
+Despite the availability of large volumes of football data, many analyses remain:
+- Match-centric rather than decision-centric
+- Descriptive instead of strategic
+- Disconnected from how analytics systems operate in real organizations
 
-- How competitive are top football leagues in reality?
-- Are outcomes driven by a small number of elite teams?
-- How predictable is goal scoring across competitions?
-- Where do structural advantages exist?
+In real business environments, decision-makers rarely work with static datasets. Instead, data is retrieved dynamically from external sources, ingested via APIs, and processed through analytics pipelines before insights are delivered.
 
-The analysis focuses on delivering **decision-oriented insights**, not descriptive statistics.
+This project was created to replicate that real-world scenario and answer questions such as:
+
+- Are elite football leagues truly competitive, or dominated by a few teams?
+
+- How does scoring behavior differ across competitions and seasons?
+
+- Is home advantage a structural phenomenon or seasonal noise?
+
+- Which competitions exhibit higher unpredictability and volatility?
+
+ The focus is on business relevance, not fan opinion.
 
 
 
@@ -43,22 +53,27 @@ The analysis focuses on delivering **decision-oriented insights**, not descripti
 
 ## Executive Summary
 
-This project evaluates **UEFA Champions League, Premier League, and LaLiga** performance across the **2024–2025 seasons** using a purpose-built analytics warehouse.
+This project presents an end-to-end football analytics case study analyzing performance across the **UEFA Champions League, Premier League, and LaLiga for the 2024–2025 seasons**. Rather than relying on pre-packaged datasets, match data was retrieved directly from an external football API, simulating how analytics teams ingest live or third-party data in production environments.
 
-### Key Findings:
-- Scoring intensity and volatility vary meaningfully by competition
-- Home advantage remains a structural factor, not a seasonal anomaly
-- A small set of elite teams disproportionately influence league outcomes
-- Competitive balance differs sharply across leagues
+**The project combines:**
 
-The project delivers **decision-ready KPIs**, enabling strategic insight for:
+- Data ingestion via APIs
 
-- League operators  
-- Broadcasters  
-- Club management  
-- Football analysts  
+- A structured analytics warehouse
 
-This is a **business analytics project**, not a fan-driven analysis.
+-SQL-based KPI development
+
+- Business-focused insight delivery
+
+The final output is a set of decision-ready KPIs, suitable for strategic use by:
+
+- League operators
+
+- Broadcasters
+
+- Club management
+
+- Data analysts and consultants
 
 
 ---
