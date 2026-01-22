@@ -137,9 +137,9 @@ This reinforces why the Champions League commands premium broadcasting rights re
 
 <br/>
 
-<div align="center">
+<p align="center">
   <img src="visuals/Score%20Intensity.png" width="100%" />
-</div>
+</p>
 
 <br/>
 
