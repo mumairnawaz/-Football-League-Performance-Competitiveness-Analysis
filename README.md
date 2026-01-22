@@ -52,7 +52,8 @@ This project was created to replicate that real-world scenario and answer questi
 
 ---
 
-
+<table width="90%" align="center">
+<tr><td>
 
 ## Executive Summary
 
@@ -78,24 +79,14 @@ The final output is a set of decision-ready KPIs, suitable for strategic use by:
 
 - Data analysts and consultants
 
+</td></tr>
+</table>
 
 ---
 
-
-## Project Objective
-
-The primary objectives of this project are to:
-
-- Build a scalable football analytics warehouse
-- Standardize performance metrics across competitions
-- Produce business-focused KPIs to support strategic decision-making
-
-This is not a dashboard-only project — it demonstrates **end-to-end analytics ownership**, from ingestion to insight.
-
-
-
----
-
+<table width="90%" align="center">
+<tr><td>
+ 
 ## Data Architecture & Methodology
 
 A **medallion-style analytics architecture** was implemented to ensure reliability, auditability, and scalability.
@@ -116,13 +107,15 @@ A **medallion-style analytics architecture** was implemented to ensure reliabili
 
 This mirrors **enterprise data warehouse design**, not ad-hoc analysis.
 
-
+</td></tr>
+</table>
 
 ---
 
 # Business Insights
 
-
+<table width="90%" align="center">
+<tr><td>
 
 ## Scoring Intensity Across Competitions
 
@@ -218,7 +211,8 @@ This reinforces the Champions League’s identity as a high-risk, high-reward co
   <img src="visuals/Scoring%20Volatility%20by%20Competition%20(2024%20vs%202025).png" width="92%">
 </p>
 
-
+</td></tr>
+</table>
 
 ---
 
