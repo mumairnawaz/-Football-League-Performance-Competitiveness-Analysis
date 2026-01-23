@@ -388,79 +388,50 @@ This reinforces the Champions League’s identity as a high-risk, high-reward co
 
 # Strategic Recommendations
 
-Based on the analytical findings, the following strategic recommendations are proposed for key stakeholders across the football ecosystem:
+Based on the analytical findings, the following recommendations translate performance metrics into **clear, actionable business decisions** for leagues, broadcasters, and clubs.
+
+
+
+### Strengthen Competitive Balance to Protect Fan Engagement
+
+The analysis shows that domestic leagues—particularly **LaLiga** and the **Premier League**—exhibit widening performance gaps driven by a small number of dominant teams. Over time, reduced competitive balance increases outcome predictability and weakens fan interest.
+
+**Business actions:**
+- Track competitive balance KPIs as part of regular league performance reviews  
+- Identify early signs of excessive dominance before fan engagement declines  
+- Use balance metrics to support policy, financial, or scheduling adjustments  
+
+Sustaining competitive balance is essential for long-term audience growth and commercial stability.
 
 ---
 
-### Actively Manage Competitive Balance to Sustain Fan Engagement
+### Use Champions League Match Dynamics to Maximize Broadcast Value
 
-The analysis reveals widening performance gaps in domestic leagues, particularly in **LaLiga** and the **Premier League**. Persistent dominance by a small group of clubs reduces match unpredictability and poses a long-term risk to fan engagement.
+The **UEFA Champions League** displays higher scoring intensity and volatility compared to domestic leagues, creating more unpredictable and high-impact fixtures.
 
-**Recommended actions:**
-- Monitor competitive balance KPIs on a season-over-season basis
-- Introduce or refine financial and regulatory mechanisms to limit excessive performance concentration
-- Use competitiveness metrics as early-warning indicators of declining league parity
+**Business actions:**
+- Prioritize high-volatility matches for premium broadcast slots  
+- Align advertising pricing with expected match intensity  
+- Factor volatility metrics into media rights valuation and scheduling strategies  
 
-Maintaining competitive balance is critical to protecting audience growth, match attendance, and long-term commercial value.
-
----
-
-### Leverage Champions League Volatility for Broadcast & Commercial Strategy
-
-The **UEFA Champions League** demonstrates higher scoring volatility and intensity than domestic leagues, driven by knockout-stage dynamics and elite team concentration.
-
-**Recommended actions:**
-- Prioritize high-volatility fixtures for prime-time scheduling
-- Align advertising and sponsorship pricing with match intensity metrics
-- Explicitly incorporate volatility indicators into broadcast rights valuation models
-
-These characteristics directly support the Champions League’s premium global positioning.
+These dynamics reinforce the Champions League’s premium global positioning.
 
 ---
 
-### Use Home Advantage Metrics for Tactical & Operational Planning
+### Incorporate Home Advantage into Performance Evaluation
 
-Home advantage remains a persistent structural factor across all competitions, with a measurable goal premium ranging from **+0.29 to +0.42 goals per match**.
+Across all competitions, home teams consistently outperform away teams, confirming home advantage as a **structural factor**, not random variation.
 
-**Recommended actions:**
-- Incorporate home-advantage adjustments into tactical planning and squad rotation
-- Evaluate fixture scheduling fairness using home-bias indicators
-- Adjust predictive and performance models to reflect structural home advantage
+**Business actions:**
+- Adjust performance evaluations to account for home vs. away bias  
+- Use home advantage metrics when assessing team strength and results  
+- Support fair fixture planning by monitoring home-away balance  
 
-Ignoring home advantage introduces systematic bias into forecasting and evaluation processes.
-
----
-
-### Benchmark Club Dominance for Performance & Investment Decisions
-
-A limited number of elite clubs consistently drive league outcomes and scoring dominance, creating high performance concentration.
-
-**Recommended actions:**
-- Benchmark club performance against league-level dominance thresholds
-- Identify high-impact clubs for sponsorship and long-term investment decisions
-- Use dominance metrics to evaluate whether league outcomes align with competitive objectives
-
-Objective benchmarking enables performance assessment beyond league position alone.
-
----
-
-### Institutionalize KPI-Driven Decision Making
-
-The KPIs developed in this project—**scoring intensity, volatility, home advantage, and competitive balance**—form a reusable analytical framework.
-
-**Recommended actions:**
-- Integrate these KPIs into recurring league and club performance reviews
-- Standardize metrics across competitions for consistent comparison
-- Extend the framework into forecasting, valuation, and risk modeling use cases
-
-This enables a shift from intuition-based decisions to **evidence-driven strategic planning**.
-
-
-
+Accounting for home advantage improves the accuracy of performance and outcome assessments.
 
 
 </td></tr>
-</table>
+</table>>
 
 
 
