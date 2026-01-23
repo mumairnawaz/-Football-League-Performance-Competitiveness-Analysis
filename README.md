@@ -179,23 +179,92 @@ FOOTBALLDATALAKEHOUSE/
  
 # Data Architecture & Methodology
 
-A **medallion-style analytics architecture** was implemented to ensure reliability, auditability, and scalability.
+This project was designed and executed using an **enterprise-style, medallion-based analytics architecture** to demonstrate full ownership of the data lifecycle — from external data ingestion to business-ready insights.
 
-### 🔹 Bronze Layer – Raw Ingestion
-- Raw match data ingested from official football data sources
-- Stored without transformation for full traceability
+Rather than relying on pre-built datasets, all data was **programmatically retrieved, processed, and modeled** to reflect real-world analytics and data engineering practices.
 
-### 🔹 Silver Layer – Clean & Standardized
-- Data cleaning and normalization
-- Standardized team names and match structures
-- Consistent season and competition alignment
+---
 
-### 🔹 Gold Layer – Business Analytics
-- Match-level fact tables
-- Aggregated KPIs by competition, season, and team
-- Optimized for SQL analytics and BI consumption
+### 🔹 Bronze Layer — API-Based Raw Ingestion
 
-This mirrors **enterprise data warehouse design**, not ad-hoc analysis.
+The Bronze layer represents the **source-of-truth** for all football data.
+
+**Data Source**
+- Match data retrieved from an official football data API
+- Coverage includes **UEFA Champions League, Premier League, and LaLiga**
+- Seasons analyzed: **2024 and 2025**
+
+**Ingestion Process**
+- Data fetched via a custom Python ingestion script (`fetch_matches.py`)
+- API requests parameterized by competition and season
+- Responses stored as raw JSON files with timestamps
+- No transformations applied at this stage to preserve full auditability
+
+**Purpose**
+- Ensure traceability back to the original source
+- Enable reprocessing without re-fetching data
+- Mirror how raw data is stored in enterprise data lakes
+
+---
+
+### 🔹 Silver Layer — Cleaned & Standardized Data
+
+The Silver layer transforms raw API responses into a **consistent, analytics-ready dataset**.
+
+**Processing Steps**
+- JSON normalization into structured tabular format
+- Standardization of team names and identifiers
+- Alignment of competition and season fields
+- Validation of match completeness and schema consistency
+- Removal of irrelevant or malformed records
+
+**Output**
+- Cleaned match-level dataset stored as `matches_clean.parquet`
+- One row per match with standardized fields (teams, goals, dates, competition)
+
+**Purpose**
+- Create a reliable foundation for analytical modeling
+- Eliminate inconsistencies inherent in raw API data
+- Ensure comparability across competitions and seasons
+
+---
+
+### 🔹 Gold Layer — Business Analytics & KPIs
+
+The Gold layer contains **business-facing analytical models** designed for SQL analysis and BI consumption.
+
+**Data Models**
+- `fact_matches.parquet`  
+  Match-level fact table (grain: one row per match)
+
+- `league_kpis.parquet`  
+  Aggregated KPIs by competition and season  
+  (e.g. total goals, average goals per match, scoring intensity)
+
+- `team_performance.parquet`  
+  Team-level performance metrics  
+  (goals scored, goals conceded, goal difference, dominance)
+
+**Purpose**
+- Translate raw match data into decision-ready metrics
+- Enable fast SQL-based analysis using DuckDB
+- Serve as the foundation for executive KPIs and visualizations
+
+---
+
+### Why This Architecture Matters
+
+This architecture was intentionally chosen to reflect **real enterprise analytics workflows**, not exploratory or ad-hoc analysis.
+
+It demonstrates:
+- API data ingestion and automation
+- Data quality control and standardization
+- Dimensional modeling principles
+- Separation of raw, processed, and business layers
+- Readiness for BI tools such as Power BI
+
+This approach mirrors how **production analytics platforms are built and maintained** in professional environments.
+
 
 </td></tr>
 </table>
