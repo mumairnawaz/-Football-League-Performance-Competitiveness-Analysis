@@ -187,7 +187,7 @@ Rather than relying on pre-curated datasets, all data was **programmatically sou
 
 ---
 
-### 🔹 Bronze Layer — External API Ingestion (Source of Truth)
+###  Bronze Layer — External API Ingestion (Source of Truth)
 
 The Bronze layer captures raw match data directly from an external football data API, serving as the **immutable source of truth**.
 
@@ -206,7 +206,7 @@ This layer demonstrates **data acquisition, automation, and traceability**, not 
 
 ---
 
-### 🔹 Silver Layer — Data Cleaning & Standardization
+###  Silver Layer — Data Cleaning & Standardization
 
 The Silver layer converts raw API responses into a **clean, analytics-ready dataset**.
 
@@ -230,7 +230,7 @@ This layer reflects **analytics engineering best practices**, not ad-hoc cleanin
 
 ---
 
-### 🔹 Gold Layer — Analytical Models & Business KPIs
+###  Gold Layer — Analytical Models & Business KPIs
 
 The Gold layer represents **business-facing analytical models** optimized for SQL analytics and BI tools.
 
