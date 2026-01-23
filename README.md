@@ -451,24 +451,13 @@ The KPIs developed in this project—**scoring intensity, volatility, home advan
 
 This enables a shift from intuition-based decisions to **evidence-driven strategic planning**.
 
----
 
-# Strategic Value Delivered
 
-By operationalizing these insights, stakeholders can:
-
-- Protect long-term fan engagement
-- Maximize broadcast and sponsorship value
-- Improve competitive fairness
-- Enable data-driven league and club strategy
-
-This project demonstrates how **well-structured sports data can function as a strategic business asset**, not merely a reporting tool.
 
 
 </td></tr>
 </table>
 
----
 
 
 
