@@ -96,13 +96,31 @@ The final output is a set of decision-ready KPIs, suitable for strategic use by:
 # Project Structure & Analytics Deliverables
  
 This repository is structured to reflect a real-world, enterprise-style analytics workflow, covering the complete lifecycle from API ingestion → data warehousing → business insights → executive visuals. Each directory represents a clear responsibility within the analytics pipeline.
-```
+```text
 FOOTBALLDATALAKEHOUSE/
 │
 ├── analytics/
 │   └── sql_queries.sql
 │       # Final business-grade SQL queries
 │       # Used to generate KPIs, insights, and CSV exports
+│
+├── dashboards/
+│   ├── Football Analytics.pbix
+│   │   # Main Power BI dashboard file
+│   │   # Interactive executive-level football analytics
+│   │
+│   └── Football Leagues Dashboard.png
+│       # Snapshot of the Power BI dashboard
+│       # Used for README previews and portfolio showcases
+│
+├── data_model/
+│   ├── Model Relations.png
+│   │   # Visual representation of fact & dimension relationships
+│   │   # Shows star-schema style modeling
+│   │
+│   └── bi model
+│       # Power BI semantic / data model configuration
+│       # Measures, relationships, and calculated fields
 │
 ├── data/
 │   ├── bronze/
@@ -118,7 +136,8 @@ FOOTBALLDATALAKEHOUSE/
 │   │
 │   ├── gold/
 │   │   ├── fact_matches.parquet
-│   │   │   # Match-level fact table (grain: one row per match)
+│   │   │   # Match-level fact table
+│   │   │   # Grain: one row per match
 │   │   │
 │   │   ├── league_kpis.parquet
 │   │   │   # Aggregated KPIs by competition and season
